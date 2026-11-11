@@ -1,7 +1,9 @@
+import base64
 import os
 from datetime import datetime
 
 import pytest
+from pytest_html import extras
 from selenium import webdriver
 
 
@@ -29,3 +31,8 @@ def pytest_runtest_makereport(item, call):
             timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
             filename = f"reports/screenshots/{item.name}_{timestamp}.png"
             driver.save_screenshot(filename)
+
+            # Adjunta la captura dentro del reporte HTML
+            with open(filename, "rb") as archivo:
+                imagen = base64.b64encode(archivo.read()).decode("utf-8")
+            rep.extras = getattr(rep, "extras", []) + [extras.image(imagen)]

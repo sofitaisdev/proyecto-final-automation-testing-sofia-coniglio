@@ -48,3 +48,92 @@
 2026-11-11 08:37:26,546 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
 2026-11-11 08:37:26,621 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
 2026-11-11 08:37:26,639 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:40:03,757 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:04,125 | INFO | LoginPage | Intentando login con usuario 'locked_out_user'
+2026-11-11 08:40:04,127 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:04,130 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:04,465 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:04,466 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:04,794 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:04,796 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:04,951 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:05,029 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Sorry, this user has been locked out.
+2026-11-11 08:40:06,350 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:06,694 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:40:06,695 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:06,695 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:06,926 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:06,927 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:07,030 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:07,031 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:07,103 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:07,125 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username and password do not match any user in this service
+2026-11-11 08:40:07,776 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:08,067 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:40:08,069 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:08,070 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:08,201 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:08,202 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:08,302 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:08,303 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:08,394 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:08,414 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:40:09,032 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:09,252 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:40:09,254 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:09,255 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:09,401 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:09,401 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:09,459 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:09,459 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:09,521 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:09,541 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Password is required
+2026-11-11 08:40:10,176 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:10,437 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:40:10,438 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:10,439 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:10,539 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:10,539 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:10,630 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:10,631 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:10,702 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:10,720 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:40:11,385 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:11,603 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:40:11,604 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:11,604 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:11,754 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:11,754 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:11,835 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:11,835 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:13,696 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:13,951 | INFO | LoginPage | Intentando login con usuario 'locked_out_user'
+2026-11-11 08:40:13,952 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:13,952 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:14,135 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:14,135 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:14,213 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:14,214 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:14,287 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:14,306 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Sorry, this user has been locked out.
+2026-11-11 08:40:15,912 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:16,145 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:40:16,147 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:16,148 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:16,323 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:16,324 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:16,416 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:16,416 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:16,533 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:16,564 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username and password do not match any user in this service
+2026-11-11 08:40:17,241 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:40:17,462 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:40:17,462 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:40:17,462 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:40:17,567 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:40:17,568 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:40:17,631 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:40:17,632 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:40:17,699 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:40:17,717 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:40:18,340 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
