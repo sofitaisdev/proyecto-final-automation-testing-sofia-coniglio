@@ -1,5 +1,10 @@
 # Proyecto Final - Automatización de Pruebas
 
+
+
+
+
+
 Trabajo final integrador del curso de Testing QA. Consiste en un framework de automatización de pruebas desarrollado en Python, que cubre pruebas de interfaz de usuario sobre el sitio SauceDemo (https://www.saucedemo.com/) mediante Selenium WebDriver, y pruebas de API sobre JSONPlaceholder (https://jsonplaceholder.typicode.com) mediante la biblioteca Requests. Las pruebas de interfaz están organizadas con el patrón Page Object Model.
 
 ## Tecnologías utilizadas
@@ -57,3 +62,7 @@ Los casos de login negativo se leen desde data/login_negativo.csv. Para agregar 
 ## Control de versiones
 
 El proyecto se desarrolló con Git y se aloja en GitHub. Los cambios se fueron registrando con commits descriptivos. Las mejoras posteriores a la primera versión se desarrollaron en ramas aparte y luego se fusionaron con la rama principal (main).
+
+## Integración continua
+
+El proyecto tiene un pipeline de GitHub Actions (.github/workflows/tests.yml) que ejecuta los tests en cada push y guarda la carpeta reports/ como artefacto de la ejecución. El test de falla forzada se excluye del pipeline (con el marcador forced_failure) para que no lo ponga en rojo; en la ejecución local sí corre.
