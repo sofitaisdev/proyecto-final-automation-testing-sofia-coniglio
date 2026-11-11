@@ -53,3 +53,7 @@ La suite contiene 17 tests. Pasan 16 y falla 1 de manera intencional (test_force
 ## Datos de prueba
 
 Los casos de login negativo se leen desde data/login_negativo.csv. Para agregar un caso nuevo basta con incorporar una fila al archivo, sin modificar el código.
+
+## Control de versiones
+
+El proyecto se desarrolló con Git y se aloja en GitHub. Los cambios se fueron registrando con commits descriptivos. Las mejoras posteriores a la primera versión se desarrollaron en ramas aparte y luego se fusionaron con la rama principal (main).
