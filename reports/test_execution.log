@@ -137,3 +137,281 @@
 2026-11-11 08:40:17,699 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
 2026-11-11 08:40:17,717 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
 2026-11-11 08:40:18,340 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:31,353 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:31,861 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:46:31,865 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:31,867 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:32,187 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:32,188 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:32,379 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:32,382 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:32,559 | INFO | InventoryPage | Buscando elemento ('class name', 'inventory_item')
+2026-11-11 08:46:32,690 | INFO | InventoryPage | Productos visibles: 6
+2026-11-11 08:46:32,703 | INFO | InventoryPage | Agregando la mochila al carrito
+2026-11-11 08:46:32,703 | INFO | InventoryPage | Click en ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:46:32,703 | INFO | InventoryPage | Buscando elemento ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:46:32,934 | INFO | InventoryPage | Buscando elemento ('class name', 'shopping_cart_badge')
+2026-11-11 08:46:32,966 | INFO | InventoryPage | Yendo al carrito
+2026-11-11 08:46:32,967 | INFO | InventoryPage | Click en ('class name', 'shopping_cart_link')
+2026-11-11 08:46:32,967 | INFO | InventoryPage | Buscando elemento ('class name', 'shopping_cart_link')
+2026-11-11 08:46:33,140 | INFO | CartPage | Buscando elemento ('class name', 'inventory_item_name')
+2026-11-11 08:46:33,161 | INFO | CartPage | Producto en el carrito: Sauce Labs Backpack
+2026-11-11 08:46:34,054 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:34,555 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:46:34,561 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:34,572 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:34,813 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:34,814 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:34,918 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:34,919 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:35,029 | INFO | InventoryPage | Agregando la mochila al carrito
+2026-11-11 08:46:35,031 | INFO | InventoryPage | Click en ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:46:35,031 | INFO | InventoryPage | Buscando elemento ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:46:35,273 | INFO | InventoryPage | Yendo al carrito
+2026-11-11 08:46:35,276 | INFO | InventoryPage | Click en ('class name', 'shopping_cart_link')
+2026-11-11 08:46:35,276 | INFO | InventoryPage | Buscando elemento ('class name', 'shopping_cart_link')
+2026-11-11 08:46:35,429 | INFO | CartPage | Iniciando checkout
+2026-11-11 08:46:35,429 | INFO | CartPage | Click en ('id', 'checkout')
+2026-11-11 08:46:35,430 | INFO | CartPage | Buscando elemento ('id', 'checkout')
+2026-11-11 08:46:35,521 | INFO | CheckoutPage | Completando datos de envío
+2026-11-11 08:46:35,521 | INFO | CheckoutPage | Escribiendo en ('id', 'first-name')
+2026-11-11 08:46:35,522 | INFO | CheckoutPage | Buscando elemento ('id', 'first-name')
+2026-11-11 08:46:35,681 | INFO | CheckoutPage | Escribiendo en ('id', 'last-name')
+2026-11-11 08:46:35,682 | INFO | CheckoutPage | Buscando elemento ('id', 'last-name')
+2026-11-11 08:46:35,805 | INFO | CheckoutPage | Escribiendo en ('id', 'postal-code')
+2026-11-11 08:46:35,805 | INFO | CheckoutPage | Buscando elemento ('id', 'postal-code')
+2026-11-11 08:46:35,906 | INFO | CheckoutPage | Click en ('id', 'continue')
+2026-11-11 08:46:35,908 | INFO | CheckoutPage | Buscando elemento ('id', 'continue')
+2026-11-11 08:46:36,048 | INFO | CheckoutPage | Finalizando la compra
+2026-11-11 08:46:36,049 | INFO | CheckoutPage | Click en ('id', 'finish')
+2026-11-11 08:46:36,050 | INFO | CheckoutPage | Buscando elemento ('id', 'finish')
+2026-11-11 08:46:36,122 | INFO | CheckoutPage | Buscando elemento ('class name', 'complete-header')
+2026-11-11 08:46:36,153 | INFO | CheckoutPage | Mensaje de confirmación: Thank you for your order!
+2026-11-11 08:46:36,948 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:37,235 | INFO | LoginPage | Intentando login con usuario 'locked_out_user'
+2026-11-11 08:46:37,236 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:37,237 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:37,415 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:37,416 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:37,542 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:37,544 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:37,638 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:37,671 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Sorry, this user has been locked out.
+2026-11-11 08:46:38,889 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:39,112 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:46:39,113 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:39,113 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:39,270 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:39,270 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:39,367 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:39,368 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:39,439 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:39,458 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username and password do not match any user in this service
+2026-11-11 08:46:40,129 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:40,364 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:46:40,366 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:40,367 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:40,472 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:40,472 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:40,563 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:40,563 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:40,627 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:40,645 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:46:41,379 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:41,628 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:46:41,628 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:41,629 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:41,789 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:41,790 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:41,843 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:41,843 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:41,903 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:41,923 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Password is required
+2026-11-11 08:46:42,548 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:42,772 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:46:42,773 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:42,773 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:42,879 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:42,879 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:42,939 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:42,940 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:43,004 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:43,024 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:46:43,716 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:43,930 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:46:43,930 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:43,930 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:44,065 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:44,065 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:44,141 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:44,141 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:45,076 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:45,315 | INFO | LoginPage | Intentando login con usuario 'locked_out_user'
+2026-11-11 08:46:45,316 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:45,316 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:45,461 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:45,462 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:45,550 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:45,550 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:45,621 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:45,639 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Sorry, this user has been locked out.
+2026-11-11 08:46:46,297 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:46,544 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:46:46,544 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:46,545 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:46,747 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:46,747 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:46,829 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:46,830 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:46,897 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:46,917 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username and password do not match any user in this service
+2026-11-11 08:46:47,684 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:46:47,943 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:46:47,944 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:46:47,945 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:46:48,043 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:46:48,043 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:46:48,104 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:46:48,105 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:46:48,167 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:46:48,191 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:46:48,860 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:03,310 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:04,080 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:54:04,083 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:04,086 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:04,420 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:04,423 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:04,603 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:04,603 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:04,723 | INFO | InventoryPage | Buscando elemento ('class name', 'inventory_item')
+2026-11-11 08:54:04,820 | INFO | InventoryPage | Productos visibles: 6
+2026-11-11 08:54:04,822 | INFO | InventoryPage | Agregando la mochila al carrito
+2026-11-11 08:54:04,822 | INFO | InventoryPage | Click en ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:54:04,822 | INFO | InventoryPage | Buscando elemento ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:54:04,916 | INFO | InventoryPage | Buscando elemento ('class name', 'shopping_cart_badge')
+2026-11-11 08:54:04,945 | INFO | InventoryPage | Yendo al carrito
+2026-11-11 08:54:04,946 | INFO | InventoryPage | Click en ('class name', 'shopping_cart_link')
+2026-11-11 08:54:04,947 | INFO | InventoryPage | Buscando elemento ('class name', 'shopping_cart_link')
+2026-11-11 08:54:05,072 | INFO | CartPage | Buscando elemento ('class name', 'inventory_item_name')
+2026-11-11 08:54:05,111 | INFO | CartPage | Producto en el carrito: Sauce Labs Backpack
+2026-11-11 08:54:06,247 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:06,814 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:54:06,814 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:06,814 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:07,140 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:07,141 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:07,250 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:07,250 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:07,352 | INFO | InventoryPage | Agregando la mochila al carrito
+2026-11-11 08:54:07,355 | INFO | InventoryPage | Click en ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:54:07,355 | INFO | InventoryPage | Buscando elemento ('id', 'add-to-cart-sauce-labs-backpack')
+2026-11-11 08:54:07,528 | INFO | InventoryPage | Yendo al carrito
+2026-11-11 08:54:07,528 | INFO | InventoryPage | Click en ('class name', 'shopping_cart_link')
+2026-11-11 08:54:07,528 | INFO | InventoryPage | Buscando elemento ('class name', 'shopping_cart_link')
+2026-11-11 08:54:07,614 | INFO | CartPage | Iniciando checkout
+2026-11-11 08:54:07,614 | INFO | CartPage | Click en ('id', 'checkout')
+2026-11-11 08:54:07,615 | INFO | CartPage | Buscando elemento ('id', 'checkout')
+2026-11-11 08:54:07,689 | INFO | CheckoutPage | Completando datos de envío
+2026-11-11 08:54:07,690 | INFO | CheckoutPage | Escribiendo en ('id', 'first-name')
+2026-11-11 08:54:07,690 | INFO | CheckoutPage | Buscando elemento ('id', 'first-name')
+2026-11-11 08:54:07,770 | INFO | CheckoutPage | Escribiendo en ('id', 'last-name')
+2026-11-11 08:54:07,770 | INFO | CheckoutPage | Buscando elemento ('id', 'last-name')
+2026-11-11 08:54:07,853 | INFO | CheckoutPage | Escribiendo en ('id', 'postal-code')
+2026-11-11 08:54:07,853 | INFO | CheckoutPage | Buscando elemento ('id', 'postal-code')
+2026-11-11 08:54:07,921 | INFO | CheckoutPage | Click en ('id', 'continue')
+2026-11-11 08:54:07,922 | INFO | CheckoutPage | Buscando elemento ('id', 'continue')
+2026-11-11 08:54:07,991 | INFO | CheckoutPage | Finalizando la compra
+2026-11-11 08:54:07,992 | INFO | CheckoutPage | Click en ('id', 'finish')
+2026-11-11 08:54:07,993 | INFO | CheckoutPage | Buscando elemento ('id', 'finish')
+2026-11-11 08:54:08,068 | INFO | CheckoutPage | Buscando elemento ('class name', 'complete-header')
+2026-11-11 08:54:08,093 | INFO | CheckoutPage | Mensaje de confirmación: Thank you for your order!
+2026-11-11 08:54:09,419 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:09,722 | INFO | LoginPage | Intentando login con usuario 'locked_out_user'
+2026-11-11 08:54:09,726 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:09,726 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:09,949 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:09,949 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:10,071 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:10,071 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:10,201 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:10,233 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Sorry, this user has been locked out.
+2026-11-11 08:54:11,243 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:11,454 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:54:11,455 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:11,455 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:11,661 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:11,662 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:11,757 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:11,758 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:11,829 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:11,847 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username and password do not match any user in this service
+2026-11-11 08:54:12,468 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:12,676 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:54:12,678 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:12,678 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:12,770 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:12,770 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:12,911 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:12,911 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:12,986 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:13,003 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:54:13,609 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:13,841 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:54:13,843 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:13,843 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:14,094 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:14,095 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:14,192 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:14,193 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:14,314 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:14,336 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Password is required
+2026-11-11 08:54:15,073 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:15,295 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:54:15,295 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:15,295 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:15,434 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:15,434 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:15,488 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:15,488 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:15,551 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:15,572 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:54:16,197 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:16,409 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:54:16,410 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:16,411 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:16,537 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:16,537 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:16,622 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:16,623 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:18,428 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:18,614 | INFO | LoginPage | Intentando login con usuario 'locked_out_user'
+2026-11-11 08:54:18,615 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:18,616 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:18,756 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:18,756 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:18,839 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:18,841 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:18,943 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:18,972 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Sorry, this user has been locked out.
+2026-11-11 08:54:19,684 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:19,956 | INFO | LoginPage | Intentando login con usuario 'standard_user'
+2026-11-11 08:54:19,958 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:19,958 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:20,104 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:20,104 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:20,212 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:20,212 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:20,284 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:20,302 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username and password do not match any user in this service
+2026-11-11 08:54:21,017 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
+2026-11-11 08:54:21,207 | INFO | LoginPage | Intentando login con usuario ''
+2026-11-11 08:54:21,208 | INFO | LoginPage | Escribiendo en ('id', 'user-name')
+2026-11-11 08:54:21,209 | INFO | LoginPage | Buscando elemento ('id', 'user-name')
+2026-11-11 08:54:21,309 | INFO | LoginPage | Escribiendo en ('id', 'password')
+2026-11-11 08:54:21,309 | INFO | LoginPage | Buscando elemento ('id', 'password')
+2026-11-11 08:54:21,369 | INFO | LoginPage | Click en ('id', 'login-button')
+2026-11-11 08:54:21,369 | INFO | LoginPage | Buscando elemento ('id', 'login-button')
+2026-11-11 08:54:21,437 | INFO | LoginPage | Buscando elemento ('css selector', "h3[data-test='error']")
+2026-11-11 08:54:21,465 | INFO | LoginPage | Mensaje de error obtenido: Epic sadface: Username is required
+2026-11-11 08:54:22,128 | INFO | LoginPage | Abriendo https://www.saucedemo.com/
