@@ -1,3 +1,5 @@
+import pytest
+
 from pages.login_page import LoginPage
 
 
@@ -29,6 +31,7 @@ def test_empty_credentials(driver):
     assert "Username is required" in page.get_error_message()
 
 
+@pytest.mark.forced_failure
 def test_forced_failure_screenshot(driver):
     page = LoginPage(driver)
     page.open()
